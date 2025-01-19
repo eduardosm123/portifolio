@@ -19,21 +19,21 @@ export default function About() {
                     <Box sx={{ display: 'flex', flexDirection: 'column', paddingBottom: 1 }}>
                         <Presentation text="Veja mais sobre minha Jornada como Desenvolvedor Front-end" />
                     </Box>
-                    <Box sx={{ background: "#c7c7c7", margin: "1%", padding: "1%", borderRadius: "17px" }}>
+                    <Box className='bg-[#f8fafc] m-5 p-5 rounded-xl' >
                         <article>
-                            <p style={{ fontSize: "120%" }}>
-                                <span style={{ fontWeight: "bold" }}>Itaipu Parquetec:</span> Durante esse período, de 2 anos, como estagiário,
+                            <p className='text-xl'>
+                                <span  className='font-bold'>Itaipu Parquetec:</span> Durante esse período, de 2 anos, como estagiário,
                                 atuei no desenvolvimento front end de interfaces por meio do framework React, criando formulários, testando bibliotecas,
                                 realizando a correção de bugs, desenvolvendo documentações e fazendo o monitoramento do banco de dados.
                             </p>
-                            <p style={{ fontSize: "120%" }}>
-                                <span style={{ fontWeight: "bold" }}>Experiência acadêmica: </span>
+                            <p className='mt-5 text-xl'>
+                                <span className='font-bold'>Experiência acadêmica: </span>
                                 Durante meu período acadêmico, tive a oportunidade de desenvolver variados
                                 projetos simulando situações reais. Nesses projetos, atuei principalmente no
                                 desenvolvimento frontend usando frameworks como React.js, Next.js e um pouco de Vue.js.
                             </p>
-                            <p style={{ fontSize: "120%" }}>
-                                <span style={{ fontWeight: "bold" }}>Projetos:</span> Recentemente, em janeiro de 2025,
+                            <p className='mt-5 text-xl'>
+                                <span  className='font-bold'>Projetos:</span> Recentemente, em janeiro de 2025,
                                 também desenvolvi três aplicações usando React: a primeira utiliza no frontend (React, Redux, Bootstrap e Javascript),
                                 com backend de (Express, Mongoose e Javascript), a segunda aplicação usa no frontend (React, Redux, Bootstrap e Typescript)
                                 com backend (Express, Mongoose e Typescript), sendo a terceira o portfólio onde no frontend foi utilizado

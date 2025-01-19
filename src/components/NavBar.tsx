@@ -73,7 +73,7 @@ export default function NavBar({ children }: NavbarProps) {
                                 {pages.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
                                         <Typography textAlign="center">
-                                             <Link to={page === 'Projetos' ? '/' : `/${page.toLowerCase()}`} style={{textDecoration: "none", color: "black"}} >{page}</Link>
+                                             <Link to={page === 'Projetos' ? '/' : `/${page.toLowerCase()}`} className='no-underline hover:text-[#38bdf8] text-black' >{page}</Link>
                                         </Typography>
                                     </MenuItem>
                                 ))}

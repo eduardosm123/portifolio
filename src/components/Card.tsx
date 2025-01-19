@@ -36,7 +36,7 @@ export default function ProjectCard({ imageURL, titleImage, titleCard, descripti
                     <Typography gutterBottom variant="h5" component="div">
                         {titleCard}
                     </Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    <Typography variant="body2"  className='text-base text-[#4b5563]'>
                         {descriptionCard}
                     </Typography>
                 </CardContent>

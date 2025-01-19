@@ -64,7 +64,7 @@ export default function ContactForm() {
           value={values.data.message} 
           onChange={e => dispatch(setData({ message: e.target.value }))}></textarea>
         <div className='flex justify-center w-full m-4'>
-          <button className='bg-[#22c55e] hover:bg-[#16a34a] w-2/5 rounded px-2 py-1 self-center'>Enviar</button>
+          <button className='bg-[#22c55e] hover:bg-[#16a34a] w-2/5 h-10 rounded px-2 py-1 self-center'>Enviar</button>
         </div>
       </form>
     </div>

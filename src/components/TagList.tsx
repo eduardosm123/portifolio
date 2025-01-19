@@ -17,7 +17,7 @@ export default function TagList({ title, list }: listI) {
                     {list.map((skill, index) => (
                         <Box key={index}
                             sx={{
-                                background: "#e0e0e0",
+                                background: "#f8fafc",
                                 padding: "8px 12px",
                                 borderRadius: "12px",
                                 fontSize: "90%",
