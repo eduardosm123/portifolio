@@ -2,13 +2,15 @@ import * as React from 'react';
  
 import { Container } from "@mui/material";
 
- 
+import { useSelector } from 'react-redux';
+import { RootState } from '../redux/store'; 
 
 interface presentationPropsI {
     text: string
 }
 
 export default function Presentation({ text }: presentationPropsI) {
+    const darkMode = useSelector((state: RootState) => state.theme.darkMode);
 
     return (
         <>
@@ -21,7 +23,7 @@ export default function Presentation({ text }: presentationPropsI) {
                 borderRadius: '50%',
                 boxShadow: "5px 5px 10px rgba(0, 0, 0, 0.1)"
             }}></img>
-            <h1 className='text-center text-lg mt-6 text-white'  >{text}</h1>
+            <h1 className='text-center text-lg mt-6'  style={{ color: darkMode ? "white" : "black" }} >{text}</h1>
         </Container>
         </>
         

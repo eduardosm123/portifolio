@@ -36,12 +36,12 @@ export default function ProjectCard({ imageURL, titleImage, titleCard, descripti
                     <Typography gutterBottom variant="h5" component="div">
                         {titleCard}
                     </Typography>
-                    <Typography variant="body2"  className='text-base text-[#4b5563]'>
+                    <Typography variant="body2"  className='text-base text-[#4b5563]  text-justify'>
                         {descriptionCard}
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" href={urlProject}>Repositorio</Button>
+                    <Button size="small"  target='_blank'  rel="noopener noreferrer"  href={urlProject}>Repositorio</Button>
                 </CardActions>
             </Box>
         </Card>

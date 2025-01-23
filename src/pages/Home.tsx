@@ -12,8 +12,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
+ 
 
 export default function Home() {
+
+
     return (
         <>
             <NavBar>
@@ -57,7 +60,8 @@ export default function Home() {
                                 navigation
                                 pagination={{ clickable: true }}
                                 loop={true}
-                                className='pb-4 pl-12'
+                                className='pb-4'
+                                style={{ paddingLeft: "4%"}}
                             >
                                 {projects.map((project) => (
                                     <SwiperSlide key={project.name}>

@@ -1,13 +1,18 @@
 import { Box } from '@mui/material';
 import * as React from 'react';
+import { useSelector } from 'react-redux';
+import { RootState } from '../redux/store'; 
+
 
 interface listI {
     title: string,
     list: string[]
 }
+ 
 
 export default function TagList({ title, list }: listI) {
-
+ 
+    const darkMode = useSelector((state: RootState) => state.theme.darkMode);
 
     return (
         <Box sx={{ margin: "0% 1%", padding: "1%" }}>
@@ -17,7 +22,7 @@ export default function TagList({ title, list }: listI) {
                     {list.map((skill, index) => (
                         <Box key={index}
                             sx={{
-                                background: "#f8fafc",
+                                background: darkMode ? "#f8fafc" : "#e5e7eb",
                                 padding: "8px 12px",
                                 borderRadius: "12px",
                                 fontSize: "90%",
