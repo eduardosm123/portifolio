@@ -9,6 +9,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Box } from '@mui/material';
 
+import "../css/Card.css"
 interface ProjectCardProps {
     imageURL: string,
     titleImage: string,
@@ -23,16 +24,16 @@ export default function ProjectCard({ imageURL, titleImage, titleCard, descripti
 
 
     return (
-        <Card sx={{ width: 400, display: 'flex', flexDirection: 'column', height: 420, marginBottom: 2 }} >
+        <Card className='card_size flex flex-col mb-2' >
             <CardMedia
-                sx={{ height: 140 }}
+                className='h-[30%]'
                 image={imageURL}
                 title={titleImage}
                 component={"img"}
 
             />
-            <Box sx={{flex: 1, display: 'flex', flexDirection: "column"}}>
-                <CardContent sx={{flex: 1}}>
+            <Box className="flex-1 flex flex-col">
+                <CardContent className="flex-1" >
                     <Typography gutterBottom variant="h5" component="div">
                         {titleCard}
                     </Typography>

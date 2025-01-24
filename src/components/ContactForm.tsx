@@ -34,8 +34,8 @@ export default function ContactForm() {
   }
 
   return (
-    <div className='container mx-auto flex justify-center items-center  flex-col w-3/5'>
-      <form onSubmit={sendEmail}>
+    <div className='container mx-auto flex justify-center items-center flex-col w-full'>
+      <form onSubmit={sendEmail} className='w-[80%]'>
         <label htmlFor='name' className={darkMode ? "text-white" : "text-black"}>Nome: </label>
         <input
           type="text"

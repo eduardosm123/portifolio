@@ -1,0 +1,21 @@
+
+
+.skill_dark {
+    background-color: #f8fafc;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #333;
+     
+}
+
+.skill_white {
+    background-color: #e5e7eb;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 90%;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}

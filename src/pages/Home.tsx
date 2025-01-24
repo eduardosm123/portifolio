@@ -9,6 +9,7 @@ import Presentation from '../components/Presentation.tsx';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import '../css/Home.css'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -21,11 +22,9 @@ export default function Home() {
         <>
             <NavBar>
                 <div  >
-                    <Box sx={{ display: 'flex', flexDirection: 'column', paddingBottom: 1 }}>
+                    <Box  className='flex flex-col pb-1'>
                         <Presentation text='Olá, eu sou o Eduardo, veja a seguir os projetos mais recentes' />
-                        <div style={{ display: 'flex', justifyContent: "center" }}>
-                            
-                        </div>
+                         
                          {/* Para telas menores */}
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <Swiper
@@ -35,7 +34,8 @@ export default function Home() {
                                 navigation
                                 pagination={{ clickable: true }}
                                 loop={true}
-                                style={{ padding: '20px' }}
+                                 
+                                className='pl-12 pb-5'
                             >
                                 {projects.map((project) => (
                                     <SwiperSlide key={project.name}>
@@ -60,8 +60,8 @@ export default function Home() {
                                 navigation
                                 pagination={{ clickable: true }}
                                 loop={true}
-                                className='pb-4'
-                                style={{ paddingLeft: "4%"}}
+                                className='pb-4 pl_per_4'
+                                 
                             >
                                 {projects.map((project) => (
                                     <SwiperSlide key={project.name}>

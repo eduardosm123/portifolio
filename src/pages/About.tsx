@@ -9,19 +9,19 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store'; 
 export default function About() {
 
-    const skillFrontEnd = ["React", "Redux", "HTML", "CSS", "Javascript", "Typescript", "Material UI", "Styled Component", "Tailwind"]
-    const skillBackend = ["Node.js", "Express.js", "Python", "Java", "SpringBoot"]
-    const skillDataSet = ["MongoDB", "PostgreSQL", "MySQL"]
-    const skillLanguage = ["Inglês"]
-    const skillMethodology = ["Scrum", "Kanban"]
-    const skillOthers = ["Github", "GitLab", "Docler", "Linux"]
+    const skillFrontEnd = ["React", "Redux", "HTML", "CSS", "Javascript", "Typescript", "Material UI", "Styled Component", "Tailwind"];
+    const skillBackend = ["Node.js", "Express.js", "Python", "Java", "Spring Boot"];
+    const skillDataSet = ["MongoDB", "PostgreSQL", "MySQL"];
+    const skillLanguage = ["Inglês"];
+    const skillMethodology = ["Scrum", "Kanban"];
+    const skillOthers = ["GitHub", "GitLab", "Docker", "Linux"];
 
     const darkMode = useSelector((state: RootState) => state.theme.darkMode);
     return (
         <>
             <NavBar>
                 <div>
-                    <Box sx={{ display: 'flex', flexDirection: 'column', paddingBottom: 1 }}>
+                    <Box className='flex flex-col pb-1'>
                         <Presentation text="Veja mais sobre minha Jornada como Desenvolvedor Front-end" />
                     </Box>
                     <Box className='m-5 p-5 rounded-xl shadow-xl' style={{ background: darkMode ? "#f8fafc" : "#d1d5db"}}>

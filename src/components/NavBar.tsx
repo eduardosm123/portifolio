@@ -48,8 +48,9 @@ export default function NavBar({ children }: NavbarProps) {
                     <Toolbar disableGutters>
                         {/* Menu para telas menores*/}
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                            {/* Botão do menu */}
-                            <IconButton
+                           <div className='flex-1'>
+                             {/* Botão do menu */}
+                             <IconButton
                                 size="large"
                                 aria-label="open navigation menu"
                                 aria-controls="menu-appbar"
@@ -85,7 +86,10 @@ export default function NavBar({ children }: NavbarProps) {
                                     </MenuItem>
                                 ))}
                             </Menu>
-                            <ToggleSwitch />
+                           </div>
+                            <div className='flex items-center flex-2'>
+                                <ToggleSwitch />
+                            </div>
                         </Box>
 
                         {/* Menu para telas maiores */}
