@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store'; 
 export default function About() {
 
-    const skillFrontEnd = ["React", "Redux", "HTML", "CSS", "Javascript", "Typescript", "Material UI", "Styled Component"]
+    const skillFrontEnd = ["React", "Redux", "HTML", "CSS", "Javascript", "Typescript", "Material UI", "Styled Component", "Tailwind"]
     const skillBackend = ["Node.js", "Express.js", "Python", "Java", "SpringBoot"]
     const skillDataSet = ["MongoDB", "PostgreSQL", "MySQL"]
     const skillLanguage = ["Inglês"]
@@ -38,11 +38,10 @@ export default function About() {
                                 desenvolvimento frontend usando frameworks como React.js, Next.js e um pouco de Vue.js.
                             </p>
                             <p className='mt-5 text-xl  text-justify'>
-                                <span  className='font-bold'>Projetos:</span> Recentemente, em janeiro de 2025,
-                                também desenvolvi três aplicações usando React: a primeira utiliza no frontend (React, Redux, Bootstrap e Javascript),
-                                com backend de (Express, Mongoose e Javascript), a segunda aplicação usa no frontend (React, Redux, Bootstrap e Typescript)
-                                com backend (Express, Mongoose e Typescript), sendo a terceira o portfólio onde no frontend foi utilizado
-                                (React, Redux, Material UI e Typescript).
+                                <span  className='font-bold'>Projetos:</span> Recentemente, em janeiro de 2025, 
+                                desenvolvi três aplicações: A primeira com React, Express, Javascript, Redux, 
+                                Bootstrap e Mongoose; A segunda com React, Express, Typescript, Redux, Bootstrap e Mongoose; 
+                                A terceira com React, Material UI, Typescript, Redux e Tailwind.
                             </p>
                         </article>
                     </Box>
