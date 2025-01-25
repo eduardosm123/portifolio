@@ -15,7 +15,7 @@ export default function Contact() {
     return (
         <>
             <NavBar>
-                <div>
+                <div data-testid="contact">
                     <Box className='flex flex-col pb-1'> <Presentation text="Veja mais sobre minha Jornada como Desenvolvedor Front-end" /> </Box>
                     <Box className={darkMode ? "bg-[#f8fafc] hover:bg-[#f1f5f9] m-4 px-4 py-3 rounded-lg" : "bg-[#d1d5db] hover:bg-[#e5e7eb] m-4 px-4 py-3 rounded-lg"} >
                         <article>

@@ -20,7 +20,7 @@ export default function About() {
     return (
         <>
             <NavBar>
-                <div>
+                <div  data-testid="about">
                     <Box className='flex flex-col pb-1'>
                         <Presentation text="Veja mais sobre minha Jornada como Desenvolvedor Front-end" />
                     </Box>
