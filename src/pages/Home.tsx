@@ -19,9 +19,9 @@ export default function Home() {
 
 
     return (
-        <>
+        < >
             <NavBar>
-                <div  >
+                <div data-testid="home" >
                     <Box  className='flex flex-col pb-1'>
                         <Presentation text='Olá, eu sou o Eduardo, veja a seguir os projetos mais recentes' />
                          

@@ -16,7 +16,7 @@ export default function Presentation({ text }: presentationPropsI) {
         <>
         <div className="pb-[1%]"></div>
         <Container className='flex flex-col pb-5'>
-            <img src='/minhaFoto.jpg' alt='Minha Foto' className='w-[20%] h-[20%] self-center rounded-[50%] shadow-xl'></img>
+            <img src='/minhaFoto.png' alt='Minha Foto' className='w-[25%] h-[25%] self-center rounded-[50%] shadow-xl'></img>
             <h1 className='text-center text-lg mt-6'  style={{ color: darkMode ? "white" : "black" }} >{text}</h1>
         </Container>
         </>
