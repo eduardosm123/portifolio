@@ -41,7 +41,7 @@ export default function Contact() {
                     <Box className={darkMode ? "bg-[#f8fafc] hover:bg-[#f1f5f9] m-4 px-4 py-3 rounded-lg" : "bg-[#d1d5db] hover:bg-[#e5e7eb] m-4 px-4 py-3 rounded-lg"}>
                         <article>
                             <p className='font_size_contact'>
-                                <span className='font-bold'  >Linkedin:</span>  <a target='_blank' className='text-blue-600 hover:text-red-600' rel="noopener noreferrer" href='https://www.linkedin.com/notifications/?filter=all'> Eduardo magalhães </a>
+                                <span className='font-bold'  >Linkedin:</span>  <a target='_blank' className='text-blue-600 hover:text-red-600' rel="noopener noreferrer" href='https://www.linkedin.com/in/eduardo-magalh%C3%A3es-39161a20a/'> Eduardo magalhães </a>
                             </p>
                         </article>
                     </Box>
