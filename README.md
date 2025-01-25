@@ -21,7 +21,7 @@ Cria o aplicativo para produção na pasta `build`.\
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Nota: esta é uma operação unidirecional. Uma vez que você `ejeta`, você não pode voltar!**
 
 Se você não estiver satisfeito com a ferramenta de construção e as opções de configuração, você pode `eject` a qualquer momento. Este comando removerá a dependência de construção única do seu projeto.
 
