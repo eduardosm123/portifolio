@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store'; 
 export default function About() {
 
-    const skillFrontEnd = ["React", "Redux", "HTML", "CSS", "Javascript", "Typescript", "Material UI", "Styled Component", "Tailwind"];
+    const skillFrontEnd = ["React", "Redux", "HTML", "CSS", "Javascript", "Typescript", "Material UI", "Styled Component", "Tailwind", "SASS"];
     const skillBackend = ["Node.js", "Express.js", "Python", "Java", "Spring Boot"];
     const skillDataSet = ["MongoDB", "PostgreSQL", "MySQL"];
     const skillLanguage = ["Inglês"];
