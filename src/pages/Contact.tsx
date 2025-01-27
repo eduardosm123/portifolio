@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 import NavBar from '../components/NavBar.tsx';
 import * as React from 'react';
 import Presentation from "../components/Presentation.tsx";
-import ContactForm from '../components/ContactForm.tsx';
+ 
 import '../css/Contact.css'
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
@@ -45,7 +45,7 @@ export default function Contact() {
                             </p>
                         </article>
                     </Box>
-                    <div className='flex justify-center items-center w-full'> <ContactForm /></div>
+                   
                     
                 </div>
             </NavBar>
