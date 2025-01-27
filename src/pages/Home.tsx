@@ -28,7 +28,7 @@ export default function Home() {
     return (
         < >
             <NavBar>
-                <div data-testid="home" >
+                <div data-testid="home"  className='min-h-screen'>
                     <Box className='flex flex-col pb-1'>
                         <Presentation text='Olá, eu sou o Eduardo, veja a seguir os projetos mais recentes' />
 
