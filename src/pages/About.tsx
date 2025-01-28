@@ -28,7 +28,7 @@ export default function About() {
                         <article>
                             <p className='text-xl  text-justify' >
                                 <span  className='font-bold'>Itaipu Parquetec:</span> Durante esse período, de 2 anos, como estagiário,
-                                atuei no desenvolvimento front end de interfaces por meio do framework React, criando formulários, testando bibliotecas,
+                                atuei no desenvolvimento front-end de interfaces por meio do framework React, criando formulários, testando bibliotecas,
                                 realizando a correção de bugs, desenvolvendo documentações e fazendo o monitoramento do banco de dados.
                             </p>
                             <p className='mt-5 text-xl  text-justify'>
@@ -45,8 +45,8 @@ export default function About() {
                             </p>
                         </article>
                     </Box>
-                    <TagList title='Habilidades em Front End:' list={skillFrontEnd}></TagList>
-                    <TagList title='Habilidades em Back End:' list={skillBackend}></TagList>
+                    <TagList title='Habilidades em Front-End:' list={skillFrontEnd}></TagList>
+                    <TagList title='Habilidades em Back-End:' list={skillBackend}></TagList>
                     <TagList title='Habilidades em Banco de Dados:' list={skillDataSet}></TagList>
                     <TagList title='Habilidades em Idiomas:' list={skillLanguage}></TagList>
                     <TagList title='Habilidades em Metodologias:' list={skillMethodology}></TagList>
