@@ -2,7 +2,7 @@
 
 export const projects = [
   {
-    name: "Projeto do Portfólio",
+    name: "Projeto de Portifólio",
     urlProject: "https://github.com/eduardosm123/portifolio",
     image: "portifolio.png",
     titleCard: "Projeto do Portfólio",
