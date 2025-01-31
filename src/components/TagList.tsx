@@ -17,7 +17,7 @@ export default function TagList({ title, list }: listI) {
     return (
         <Box className=" ml-2 p-[1%]" >
             <article>
-                <h2 className={darkMode ? "text-white" : "text-black"}>{title} </h2>
+                <h2 className={darkMode ? "text-white font-bold" : "text-black font-bold"}>{title} </h2>
                 <Box className="flex flex-wrap gap-7 mt-2"  >
                     {list.map((skill, index) => (
                         <Box key={index} className={darkMode ? "skill_dark" : "skill_white"}      
