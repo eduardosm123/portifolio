@@ -22,7 +22,7 @@ export default function About() {
             <NavBar>
                 <div  data-testid="about" className='min-h-screen'>
                     <Box className='flex flex-col pb-1'>
-                        <Presentation text="Veja mais sobre minha Jornada como Desenvolvedor Front-end" />
+                        <Presentation text="Veja mais sobre minha jornada como desenvolvedor front-end" />
                     </Box>
                     <Box className='m-5 p-5 rounded-xl shadow-xl' style={{ background: darkMode ? "#f8fafc" : "#d1d5db"}}>
                         <article>
