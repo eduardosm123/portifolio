@@ -43,7 +43,7 @@ export default function NavBar({ children }: NavbarProps) {
 
     return (
         <>
-            <AppBar position='fixed' sx={{ top: "0px", background: darkMode ? "#111827" : "#4b5563" }}>
+            <AppBar position='fixed' sx={{ top: "0px", background: darkMode ? "#111827" : "#4b5563" }} className='opacity-90'>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         {/* Menu para telas menores*/}
@@ -93,7 +93,7 @@ export default function NavBar({ children }: NavbarProps) {
                         </Box>
 
                         {/* Menu para telas maiores */}
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}  className='opacity-90'>
                             <div className='w-4/5 flex items-center'>
                                 {pages.map((page) => (
                                     <Link key={page} color='white' to={page === "Projetos" ? "/" : `/${page.toLowerCase()}`} className={"hover:text-[#38bdf8] ml-4"}> {page} </Link>

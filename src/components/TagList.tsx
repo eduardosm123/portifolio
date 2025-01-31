@@ -20,7 +20,9 @@ export default function TagList({ title, list }: listI) {
                 <h2 className={darkMode ? "text-white font-bold" : "text-black font-bold"}>{title} </h2>
                 <Box className="flex flex-wrap gap-7 mt-2"  >
                     {list.map((skill, index) => (
-                        <Box key={index} className={darkMode ? "skill_dark" : "skill_white"}      
+                        <Box key={index} className={!darkMode ? "text-white font-bold skill_dark bg-cover bg-center bg-no-repeat bg-fixed" : "text-black font-bold skill_white bg-cover bg-center bg-no-repeat bg-fixed"}  sx={{
+                            backgroundImage: !darkMode ? `url(${process.env.PUBLIC_URL}/fundo-escuro.jpg)` : `url(${process.env.PUBLIC_URL}/fundo-branco.jpg)`,
+                        }}    
                         >
                             {skill}
                         </Box>
