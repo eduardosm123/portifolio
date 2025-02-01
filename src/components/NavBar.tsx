@@ -43,7 +43,7 @@ export default function NavBar({ children }: NavbarProps) {
 
     return (
         <>
-            <AppBar position='fixed' sx={{ top: "0px", background: darkMode ? "#111827" : "#4b5563" }} className='opacity-90'>
+            <AppBar position='fixed' sx={{ top: "0px", background: "#111827"}} className='opacity-90'>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         {/* Menu para telas menores*/}
