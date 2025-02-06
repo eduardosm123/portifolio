@@ -31,7 +31,7 @@ export default function Home() {
             <NavBar>
                 <div data-testid="home"  className='min-h-screen'>
                     <Box className='flex flex-col pb-1'>
-                        <Presentation link={true} text='Olá! Sou Eduardo Magalhães, desenvolvedor Front-end com experiência em React, TypeScript e Node.js. Sempre busco inovação e soluções criativas para desafios digitais. Quer saber mais sobre meu trabalho? Estou aberto a novas oportunidades e colaborações. Vamos conversar!' />
+                        <Presentation link={true} text='Olá! Sou Eduardo Magalhães, um desenvolvedor Front-end com experiência em React, TypeScript e Node.js. Sempre busco inovação e soluções criativas para desafios digitais. Quer saber mais sobre meu trabalho? Estou aberto a novas oportunidades e colaborações. Vamos conversar!' />
                         
                         {/* Para telas menores */}
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
