@@ -19,11 +19,12 @@ export default function Home() {
 
     const originalConsoleWarn = console.warn;
 
+    // oculta o warn que nao afeta a aplicação
     console.warn = (...args) => {
         if (args[0]?.includes('Swiper Loop Warning')) {
-            return; // Ignora warnings específicos do Swiper
+            return;  
         }
-        originalConsoleWarn(...args); // Mantém outros warnings
+        originalConsoleWarn(...args);  
     };
  
     return (
