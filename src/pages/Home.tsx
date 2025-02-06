@@ -13,7 +13,7 @@ import '../css/Home.css'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
-
+ 
 
 export default function Home() {
 
@@ -25,13 +25,14 @@ export default function Home() {
         }
         originalConsoleWarn(...args); // Mantém outros warnings
     };
+ 
     return (
         < >
             <NavBar>
                 <div data-testid="home"  className='min-h-screen'>
                     <Box className='flex flex-col pb-1'>
-                        <Presentation text='Olá, eu sou o Eduardo, veja a seguir os projetos mais recentes' />
-
+                        <Presentation link={true} text='Olá! Sou Eduardo Magalhães, desenvolvedor Front-end com experiência em React, TypeScript e Node.js. Sempre busco inovação e soluções criativas para desafios digitais. Quer saber mais sobre meu trabalho? Estou aberto a novas oportunidades e colaborações. Vamos conversar!' />
+                        
                         {/* Para telas menores */}
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                             <Swiper
